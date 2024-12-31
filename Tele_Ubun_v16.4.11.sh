@@ -34,7 +34,7 @@ After=network.target
 Type=simple
 Restart=always
 RestartSec=5s
-StartLimitIntervalSec=0
+StartLimitInterval=0
 EnvironmentFile=-/etc/default/teleport
 ExecStart=/usr/local/bin/teleport start --pid-file=/run/teleport.pid --roles=node --token=f7adb7ccdf04037bcd2b554hjn343lk52ec6010fd6f0caec94ba190b765 --auth-server=vpublic.teleport.gpdn.net:443 --nodename=${NAME}_${IP} --labels=env=pro,system=${SYSTEM},type=server,ip=${IP},ip_public=${IP_LOCAL}
 ExecReload=/bin/kill -HUP \$MAINPID
