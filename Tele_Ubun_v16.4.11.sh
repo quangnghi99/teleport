@@ -3,10 +3,10 @@
 # Auto Config Teleport Agent Script
 
 # Define server information
-NAME="VPQH_AppQH_DB_Ecabinet_3"
+NAME="VPQH_AppQH_DB_Ecabinet_1"
 SYSTEM="VPQH_AppQH"
-IP="10.129.8.71"
-IP_LOCAL="10.0.61.235"
+IP="10.129.8.69"
+IP_LOCAL="10.0.61.155"
 
 # Teleport version and download URL
 TELEPORT_VERSION="16.4.11"
