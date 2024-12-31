@@ -3,10 +3,10 @@
 # Auto Config Teleport Agent Script
 
 # Define server information
-NAME="BNG_api-service"
-SYSTEM="DVC_MCDT_BNG"
-IP="10.129.8.44"
-IP_LOCAL="10.0.58.98"
+NAME="VPQH_AppQH_DB_Ecabinet_3"
+SYSTEM="VPQH_AppQH"
+IP="10.129.8.71"
+IP_LOCAL="10.0.61.235"
 
 # Teleport version and download URL
 TELEPORT_VERSION="16.4.11"
